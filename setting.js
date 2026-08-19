@@ -14,8 +14,8 @@ export const settings = {
     // dengan checksum integritas supaya tidak gampang diubah — proteksi itu
     // sudah dilepas per permintaan, jadi sekarang tinggal edit 2 baris di
     // bawah ini lalu restart bot. lib/roles.js otomatis membaca dari sini.
-    creatorName:   'Keen',
-    creatorNumber: '6285188426365',
+    creatorName:   'J',
+    creatorNumber: '6285111606001',
 
     // ID & nama WhatsApp Channel buat branding forward (dipakai di .menu &
     // .allmenu supaya balasan bot terlihat "diteruskan dari" channel ini).
@@ -30,21 +30,21 @@ export const settings = {
     // commands/menu.js sama sekali.
     channelUrl:  'https://whatsapp.com/channel/0029VbD6XZW3AzNITBzI7c2L',
 
-    botName:      'GOJO SATORU MD V2',
+    botName:      'GS',
     botVersion:   '2.0.0',
-    botTagline:   '❄️ Infinity Edition — The Strongest Bot',
+    botTagline:   'Infinity',
     prefix:       '.',
 
     // Nama Owner UTAMA — cuma dipakai untuk TAMPILAN (misal di .owner,
     // .allmenu, dll). Bebas diganti kapan saja, tidak butuh restart bot
     // untuk berlaku.
-    ownerName: 'Owner',
+    ownerName: 'J',
 
     // Nomor Owner UTAMA (format: 628xxx, tanpa "+", "@s.whatsapp.net",
     // atau spasi). Nomor ini OTOMATIS punya akses Owner penuh — beda
     // dengan `ownerName` di atas yang cuma teks tampilan. Cukup ganti
     // nilainya lalu restart bot untuk berlaku.
-    ownerNumber: '',
+    ownerNumber: '6285111606001',
 
     // Daftar nomor Owner TAMBAHAN (selain `ownerNumber` di atas, dan
     // selain Creator yang sudah otomatis menjadi Owner). Cukup tulis
@@ -64,7 +64,7 @@ export const settings = {
     // Owner dan Creator otomatis mendapat akses Premium juga, jadi tidak
     // perlu didaftarkan ulang di sini.
     premiumNumbers: [
-        // '6281234567890',
+       //  '628',
     ],
 
     // Nomor HP untuk pairing (format: 628xxx tanpa + atau spasi)
@@ -72,7 +72,7 @@ export const settings = {
     // Kalau dua-duanya dikosongkan/dibiarkan placeholder ini, bot akan
     // TANYA langsung lewat console saat startup (lihat promptNomorHP()
     // di index.js) — jadi tidak wajib edit file ini kalau mau isi manual.
-    nomorPairing: '628xxxxxxxxxx',
+    nomorPairing: '6287746272020',
 
     // URL thumbnail Gojo Satoru (tampil di setiap reply bot)
     thumbnailUrl: 'https://files.catbox.moe/8jkhav.png',
@@ -99,9 +99,9 @@ export const settings = {
     noovo:   '085188426365',
 
     // Sosial media Owner — ditampilkan lewat command .sosmedowner.
-    ig:   '@kenjikitagawa',
-    tele: 'GojoSatoruOFC',
-    yt:   'JanpiwWok',
+    ig:   '@joshyqzeq',
+    tele: '',
+    yt:   '',
 
 
     // ╔═══════════════════════════════════════╗
@@ -184,7 +184,7 @@ export const settings = {
     // ── Online Status ─────────────────────────────────────────────────
     // true  = bot terlihat Online (bisa menguras baterai HP)
     // false = bot diam-diam berjalan (direkomendasikan)
-    markOnlineOnConnect: false,
+    markOnlineOnConnect: true,
 
     // ── Notifikasi "Bot Terhubung" ──────────────────────────────────────
     // true = begitu pairing BARU berhasil (bukan reconnect biasa), bot
@@ -212,7 +212,7 @@ export const settings = {
     defaultCooldown: 3000,
     // Override per kategori (ms)
     cooldowns: {
-        rpg:   8000,   // Command RPG (hunt, boss, dungeon, dll) — 8 detik
+        rpg:   5000,   // Command RPG (hunt, boss, dungeon, dll) — 8 detik
         admin: 2000,   // Command admin grup
         fun:   3000,   // Fun & game
         tools: 1500,   // Tools & kalkulator
