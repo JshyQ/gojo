@@ -25,8 +25,8 @@ import { GOJO_2000_FEATURES } from './featureRegistry2000.js';
 export const sc = (text) => mapChars(text.toLowerCase(), SMALLCAPS_MAP);
 
 const P   = settings.prefix   || '.';
-const BOT = settings.botName  || 'GOJO SATORU MD V2';
-const TAG = settings.botTagline || '❄️ Infinity Edition';
+const BOT = settings.botName  || 'GS';
+const TAG = settings.botTagline || 'Infinity';
 
 
 // Registry category helper: menu kategori tidak lagi hanya menampilkan daftar
