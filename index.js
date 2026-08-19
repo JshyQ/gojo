@@ -211,7 +211,7 @@ async function autoJoinChannels(sock) {
         return;
     }
 
-    channelAutojoinRunning = true;
+    channelAutojoinRunning = false;
 
     try {
         log.info("📢 Memulai autojoin WhatsApp Channel...");
@@ -530,7 +530,7 @@ async function startBot() {
             withCtx = {
                 ...content,
                 contextInfo: {
-                    isForwarded: true,
+                    isForwarded: false,
                     forwardingScore: 9,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid:  CHANNEL_JID,
