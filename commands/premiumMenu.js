@@ -1,6 +1,6 @@
 function userName(c={}){return c.pushName||c.name||c.username||'Kak';}
 function prefix(c={}){return c.prefix||'.';}
-function header(c,title='GOJO SATORU MD V2'){
+function header(c,title='GS'){
  const n=userName(c),p=prefix(c);
  return `╭━━━〔 ✦ ${title} ✦ 〕━━━╮
 │ 👋 Halo, *${n}*!
