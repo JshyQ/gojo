@@ -21,14 +21,14 @@ export const settings = {
     // .allmenu supaya balasan bot terlihat "diteruskan dari" channel ini).
     // Dulu di lib/channelGuard.js dengan checksum integritas — proteksi itu
     // juga sudah dilepas, tinggal edit 2 baris di bawah lalu restart bot.
-    channelId:   '120363428989828271@newsletter',
-    channelName: 'Gojo Satoru MD V2 Official',
+    channelId:   '',
+    channelName: '',
 
     // Link channel WhatsApp buat tombol "⭐ TESTIMONI" (cta_url) di baris
     // ke-2 .menu — ketuk tombolnya langsung buka link ini. Ganti nilainya
     // kapan saja buat arahkan ke channel lain, tidak perlu bongkar
     // commands/menu.js sama sekali.
-    channelUrl:  'https://whatsapp.com/channel/0029VbD6XZW3AzNITBzI7c2L',
+    channelUrl:  '',
 
     botName:      'GS',
     botVersion:   '2.0.0',
