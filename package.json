@@ -1,7 +1,7 @@
 {
-  "name": "gojo-satoru-md-v2",
+  "name": "GS",
   "version": "2.0.0",
-  "description": "Bot WhatsApp GOJO SATORU MD V2 — 1300+ Fitur, RPG, Admin (+ Anti-NSFW, Anti-Call, Anti-Chat), Fun, Tools, Cpanel | Auto-Read, Cooldown System, Anti-Flood | Baileys Multi-Device | Pterodactyl Ready",
+  "description": "Bot WhatsApp GS — 1300+ Fitur, RPG, Admin (+ Anti-NSFW, Anti-Call, Anti-Chat), Fun, Tools, Cpanel | Auto-Read, Cooldown System, Anti-Flood | Baileys Multi-Device | Pterodactyl Ready",
   "main": "index.js",
   "type": "module",
   "scripts": {
