@@ -4,10 +4,10 @@ function header(c,title='GOJO SATORU MD V2'){
  const n=userName(c),p=prefix(c);
  return `╭━━━〔 ✦ ${title} ✦ 〕━━━╮
 │ 👋 Halo, *${n}*!
-│ Selamat datang di *Gojo Satoru MD V2*
+│ Selamat datang di *GS*
 │ ✨ Semoga harimu menyenangkan.
 │
-│ 🤖 Bot : Gojo Satoru MD V2
+│ 🤖 Bot : GS
 │ ⚡ Mode : ${c.mode||'Public'}
 │ 📚 Fitur : ${c.totalFeatures||'2.000+'}
 ╰━━━━━━━━━━━━━━━━━━━━╯`;
